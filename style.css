@@ -1,0 +1,211 @@
+.test {
+    height: 30px;
+    background-image: linear-gradient(
+        270deg,
+
+        yellow,
+        green,
+        red
+
+    );
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    font-size: x-large;
+}
+.test2 {
+    width: 750px;
+    height: 50px;
+    border: 3px solid red;
+    background-color: rgb(169, 197, 248);
+    padding-bottom: 30px;
+    margin-left: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+.flex-container {
+    height: 130px;
+    border: 2px solid grey;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+    border-radius: 25px;
+
+}
+.child1 {
+    height: 60px;
+    width:350px;
+    border: 3px solid green;
+    background-color:deepskyblue;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+    
+
+}
+.child2 {
+    height: 60px;
+    width:350px;
+    border: 3px solid green;
+    background-color:deepskyblue;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+}
+.child3 {
+    height: 60px;
+    width:350px;
+    border: 3px solid green;
+    background-color:deepskyblue;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+
+    
+}
+.child4 {
+    height: 60px;
+    width:350px;
+    border: 3px solid green;
+    background-color:deepskyblue;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+}
+.test3 {
+    height: 30px;
+    background-image: linear-gradient(
+        270deg,
+
+        red,
+        yellow,
+        red
+
+    );
+    text-align: center;
+    text-decoration: underline red;
+    padding-top: 5px;
+    font-size: x-large;
+    margin-top: 20px;
+}
+.flex-container2 {
+    height: 260px;
+    border: 3px solid gray;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-image:radial-gradient(
+        blue,
+        green
+    );
+}
+.one {
+    width: 230px;
+    height: 100px;
+    border: 2px solid red;
+    text-align: center;
+    color: red;
+    text-decoration: underline red;
+    padding-bottom: 10px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.container3 {
+    display: grid;
+    margin-top: 25px;
+    border: 2px solid gray;
+    grid-template-rows: 40px 70px 130px 25px;
+    grid-template-columns:repeat(3,410px)  70px;
+    grid-gap: 10px;
+
+
+
+
+
+
+}
+.part1 {
+    background-color:Red ;
+    grid-column: 1/5;
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+    font-size:x-large
+    
+}
+
+.part2 {
+    background-color:black;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    color: white;
+    font-weight:bolder;
+    font-size:large;
+    text-decoration-line: underline;
+}
+
+
+
+.part3 {
+    background-color:green;
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+    font-size:x-large
+
+}
+
+
+.part4 {
+    background-color:skyblue;
+    color: white;
+    font-weight:bolder;
+    font-size:x-large
+}
+
+
+.part5 {
+    background-color:blue;
+    color: white;
+    font-weight:bolder;
+    font-size:large
+    
+}
+
+
+.part6{
+    background-color:orange;
+    grid-column: 1/4;
+    color: white;
+    font-weight:bolder;
+    font-size:large
+    
+        
+    
+
+    
+}
+
+
+.part7 {
+    background-color:aquamarine ;
+    grid-column: 1/5;
+    color: black;
+    font-weight:bolder;
+    font-size:x-large;
+    text-align: center;
+}
+
